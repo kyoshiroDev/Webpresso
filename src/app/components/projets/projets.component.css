@@ -17,23 +17,22 @@ h3 {
   max-width: 1300px;
   margin: auto;
   gap: 10px;
-  padding-bottom: 50px;
-}
-
-.card {
-  width: 350px;
-  height: 520px;
+  padding: 0 10px 50px 10px;
 }
 
 .projets-children {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between ;
   border: solid 1px #1d1d1d;
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.50) 2px 2px 3px;
   margin: auto;
+  height: 600px;
 }
 
 .card-img-top {
-  width: 350px;
+  width: 100%;
   border-radius: 5px 5px 0 0;
 }
 
@@ -43,7 +42,7 @@ h3 {
 }
 
 h4 {
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .list-techno {
