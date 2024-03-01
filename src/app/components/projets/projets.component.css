@@ -75,12 +75,12 @@ h4 {
   cursor: pointer;
   text-decoration: none;
   padding-bottom: 20px;
-  color: #2965f1;
+  color: #264de4;
   margin: auto;
 }
 
 .card-button a:hover {
-  background: #2965f1;
+  color: #4886f4;
 }
 
 @media screen and (min-width: 520px) {
