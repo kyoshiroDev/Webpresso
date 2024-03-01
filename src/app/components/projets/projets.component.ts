@@ -35,7 +35,7 @@ export class ProjetsComponent {
       id: 1,
       image: "/assets/Images/garage-v-parrot.png",
       alt: "image du site pour le garage v parrot",
-      titre: "The crazy Dice",
+      titre: "GarageV Parrot",
       description: "Création d'un mini jeux de dé pour un exercice d'entrainement",
       languages: ["html", "CSS", "JavaScript", "php", "symfony", "mariadb"],
       buttonSite: "https://ecf-garage-v-parrot-ad9426be4a47.herokuapp.com/",
