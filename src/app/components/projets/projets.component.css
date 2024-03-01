@@ -42,6 +42,11 @@ h3 {
 }
 
 h4 {
+
+}
+
+.card-text{
+  height: 80px;
   margin: 0;
 }
 
