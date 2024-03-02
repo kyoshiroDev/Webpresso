@@ -16,14 +16,14 @@ h3 {
   grid-template-columns: 1fr;
   max-width: 1300px;
   margin: auto;
-  gap: 10px;
+  gap: 50px;
   padding: 0 10px 50px 10px;
 }
 
 .projets-children {
   display: flex;
   flex-direction: column;
-  justify-content:space-between ;
+  justify-content: space-between;
   border: solid 1px #1d1d1d;
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.50) 2px 2px 3px;
@@ -37,15 +37,16 @@ h3 {
 }
 
 .card-body {
+  max-height: 412px;
   font-size: 1.9em;
   padding: 0 10px;
 }
 
 h4 {
-
+  margin: 0;
 }
 
-.card-text{
+.card-text {
   height: 80px;
   margin: 0;
 }
@@ -83,19 +84,14 @@ h4 {
   color: #4886f4;
 }
 
-@media screen and (min-width: 520px) {
+@media screen and (min-width: 550px) {
   .projets {
-    grid-template-columns: 1fr;
-  }
-}
-
-@media screen and (min-width: 932px) {
-  .projets {
+    gap: 20px;
     grid-template-columns: 1fr 1fr;
   }
 }
 
-@media screen and (min-width: 1350px) {
+@media screen and (min-width: 950px) {
   .projets {
     grid-template-columns: 1fr 1fr 1fr;
   }
